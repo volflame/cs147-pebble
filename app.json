@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "pebble",
+    "name": "pebble.",
     "slug": "pebble",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,7 +20,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png",
-      "name": "pebble",
+      "name": "pebble.",
       "output": "single"
     },
     "plugins": [

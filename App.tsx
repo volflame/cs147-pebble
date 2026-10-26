@@ -16,8 +16,8 @@ export default function App() {
     <ScrollView style={styles.page} contentContainerStyle={styles.content}>
       <View style={styles.container}>
         <View style={styles.header}>
-          <Text style={styles.title}>pebble</Text>
-          <Text style={styles.tagline}>A short line about what pebble does.</Text>
+          <Text style={styles.title}>pebble.</Text>
+          <Text style={styles.tagline}>imperfection rocks.</Text>
         </View>
 
         <MediaTile item={hero} autoPlay />
