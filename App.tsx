@@ -23,6 +23,9 @@ export default function App() {
         <MediaTile item={hero} autoPlay />
 
         <Text style={styles.sectionTitle}>Gallery</Text>
+        <Text style={styles.note}>
+          Our assignment slides so far. The rest of the gallery is a work in progress.
+        </Text>
         <View style={styles.grid}>
           {gallery.map((item, i) => (
             <View key={i} style={[styles.cell, { width: tileBasis }]}>
@@ -76,6 +79,12 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     color: '#111',
     marginTop: 72,
+    marginBottom: 8,
+  },
+  note: {
+    fontFamily: 'Arial',
+    fontSize: 15,
+    color: '#666',
     marginBottom: 24,
   },
   grid: {

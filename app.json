@@ -25,7 +25,11 @@
     },
     "plugins": [
       "expo-video",
-      "expo-image"
-    ]
+      "expo-image",
+      "expo-asset"
+    ],
+    "experiments": {
+      "baseUrl": "/class/cs147/projects/DesignforMeaningfulWork/Pebble"
+    }
   }
 }
