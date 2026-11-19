@@ -19,17 +19,18 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png",
+      "favicon": "./assets/favicon-pebble.png",
       "name": "pebble.",
       "output": "single"
     },
     "plugins": [
       "expo-video",
       "expo-image",
-      "expo-asset"
+      "expo-asset",
+      "expo-font"
     ],
     "experiments": {
-      "baseUrl": "/class/cs147/projects/DesignforMeaningfulWork/Pebble"
+      "baseUrl": "/class/cs147/projects/DesignForMeaningfulWork/pebble"
     }
   }
 }
